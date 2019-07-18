@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Signup">
+    tools:context=".SignupLoginActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -58,13 +58,13 @@
 
 
         <RadioButton
-            android:id="@+id/rdbDriver"
+            android:id="@+id/rdbPassenger"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Passenger" />
 
         <RadioButton
-            android:id="@+id/rdbPassenger"
+            android:id="@+id/rdbDriver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Driver" />
